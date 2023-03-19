@@ -10,6 +10,8 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     basic.showString("VODA")
     basic.clearScreen()
+    basic.showString("LED")
+    basic.clearScreen()
     basic.showArrow(ArrowNames.West)
     basic.clearScreen()
     basic.showLeds(`
@@ -22,7 +24,6 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     basic.showArrow(ArrowNames.East)
     basic.clearScreen()
-    basic.showString("LED")
 })
 input.onPinPressed(TouchPin.P2, function () {
     basic.showArrow(ArrowNames.West)
