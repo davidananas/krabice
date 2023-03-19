@@ -29,6 +29,7 @@ input.onPinPressed(TouchPin.P2, function () {
     basic.showString("ZAPLATTE 10 KC")
 })
 input.onButtonPressed(Button.AB, function () {
+    music.playTone(349, music.beat(BeatFraction.Double))
     basic.showString("VODA")
     basic.clearScreen()
     basic.showLeds(`
@@ -42,6 +43,9 @@ input.onButtonPressed(Button.AB, function () {
     basic.showString("LED")
 })
 input.onButtonPressed(Button.B, function () {
+    music.playTone(349, music.beat(BeatFraction.Whole))
+    music.rest(music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Whole))
     basic.clearScreen()
     basic.showString("VODA")
 })
