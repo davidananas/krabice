@@ -6,9 +6,9 @@ input.onPinPressed(TouchPin.P0, function () {
 })
 input.onButtonPressed(Button.A, function () {
     music.playTone(523, music.beat(BeatFraction.Whole))
-    basic.showArrow(ArrowNames.East)
-    basic.clearScreen()
     basic.showString("VODA")
+    basic.clearScreen()
+    basic.showArrow(ArrowNames.East)
     basic.clearScreen()
     basic.showString("LED")
     basic.clearScreen()
