@@ -5,7 +5,7 @@ input.onPinPressed(TouchPin.P0, function () {
 })
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
-    basic.showArrow(ArrowNames.West)
+    basic.showArrow(ArrowNames.East)
     basic.clearScreen()
     basic.showString("VODA")
     basic.clearScreen()
